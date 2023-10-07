@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgypd4ys7j5o6"
-path="res://.godot/imported/BackDropPoate.png-d238d5066fda412a44b22fdde62cdb73.ctex"
+uid="uid://cvxcqmv1dwycj"
+path="res://.godot/imported/pBar-Over.png-7005b87ce08e22f5a02614a2ffd55dc5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://BackDropPoate.png"
-dest_files=["res://.godot/imported/BackDropPoate.png-d238d5066fda412a44b22fdde62cdb73.ctex"]
+source_file="res://HealthBar/pBar-Over.png"
+dest_files=["res://.godot/imported/pBar-Over.png-7005b87ce08e22f5a02614a2ffd55dc5.ctex"]
 
 [params]
 

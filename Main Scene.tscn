@@ -1,8 +1,7 @@
-[gd_scene load_steps=40 format=3 uid="uid://b8hx6sf2krbhh"]
+[gd_scene load_steps=39 format=3 uid="uid://b8hx6sf2krbhh"]
 
 [ext_resource type="PackedScene" uid="uid://d4b5kqw2n3u7a" path="res://Character.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://hahgurjdfaln" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.png" id="2_nbbgp"]
-[ext_resource type="Texture2D" uid="uid://c740hnrwp5rfm" path="res://BackGround.png" id="2_q4ogj"]
 [ext_resource type="Texture2D" uid="uid://bnn0d5m30rnws" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_4.jpg" id="3_x6l0t"]
 [ext_resource type="Texture2D" uid="uid://ce60ewsckesq1" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_4.png" id="4_e6y5g"]
 [ext_resource type="Texture2D" uid="uid://88lebe2dma8u" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_5.jpg" id="5_ptpce"]
@@ -19,7 +18,7 @@
 [ext_resource type="Texture2D" uid="uid://cai2o5e7yfg7j" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.jpg" id="16_etxrv"]
 [ext_resource type="Texture2D" uid="uid://4sd3oahvppvk" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.png" id="17_25pkj"]
 [ext_resource type="Texture2D" uid="uid://drtocfno27886" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.jpg" id="18_gomuv"]
-[ext_resource type="Texture2D" uid="uid://btrqceo6tetre" path="res://icon.png" id="20_gobxc"]
+[ext_resource type="Texture2D" uid="uid://c740hnrwp5rfm" path="res://Art/BackGround.png" id="19_jqmxr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tjq3g"]
 
@@ -2040,7 +2039,7 @@ offset_right = 1461.0
 offset_bottom = 1614.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-texture = ExtResource("2_q4ogj")
+texture = ExtResource("19_jqmxr")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(-153, -114)
@@ -2051,4 +2050,3 @@ polygon = PackedVector2Array(-372, -148, -226, -294, 16, -430, 299, -521, 717, -
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(-1, 0)
-texture = ExtResource("20_gobxc")
