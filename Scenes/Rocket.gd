@@ -16,8 +16,7 @@ func stop():
 	movespeed = 0;
 	input = 0;
 	num = 0;
-
-
+	
 
 # Called when the node enters the scene tree for tshe first time.
 func _physics_process(delta):
@@ -29,12 +28,9 @@ func _physics_process(delta):
 		if (s > lim):
 			aux = rng.randf_range(0, 100)
 			num = rng.randf_range(1.25, 2.25)
-			VolumeManager.wind_dir = 0
 			if(aux < 50):
-				VolumeManager.wind_dir = 1
 				num *= (-1)
-			lim = rng.randf_range(100, 130)
-			VolumeManager.wind_speed = num
+			lim = rng.randf_range(60, 70)
 	
 	if(position[1] > 1150):
 		remove_child(camera)
@@ -43,7 +39,7 @@ func _physics_process(delta):
 		#Input.get_action_strength("down") - Input.get_action_strength("up")
 		0.7 - 0.2*Input.get_action_strength("up")
 	)
-	#################velocity= movespeed * input_direction
+	velocity= movespeed * input_direction
 	
 	input = 0 
 	if(Input.get_action_strength("right") > Input.get_action_strength("left") ):
@@ -56,7 +52,7 @@ func _physics_process(delta):
 		#TEXTBOX
 		stop()
 		if Input.get_action_strength("continue"):
-			get_tree().change_scene_to_file("res://Scenes/Lose_Screen.tscn")
+			get_tree().change_scene_to_file("res://scenes/main_menu.tscn")
 	#
 	
 	move_and_slide()
@@ -66,7 +62,7 @@ func _physics_process(delta):
 		if (rotation_degrees > 20 or rotation_degrees < -20):
 			#TEXTBOXprint
 			if(Input.get_action_strength("continue")):
-				get_tree().change_scene_to_file("res://Scenes/Lose_Screen.tscn")
+				get_tree().change_scene_to_file("res://Scenes/main_menu.tscn")
 		else:	
 			#TEXTBOXprint
 			if(Input.get_action_strength("continue")):

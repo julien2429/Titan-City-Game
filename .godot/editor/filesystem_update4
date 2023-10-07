@@ -9,3 +9,7 @@ res://Scenes/Reactor.tscn
 res://Character.tscn
 res://scenes/settings.tscn
 res://Scenes/Planet_scene.gd
+res://Character.gd
+res://CharacterBody2D.gd
+res://UI/O2 bar.gd
+res://Scenes/Rocket.gd

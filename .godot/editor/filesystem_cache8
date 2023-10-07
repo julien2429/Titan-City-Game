@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696714923
-Character.gd::GDScript::-1::1696711749::0::1::::<>CharacterBody2D<>::
-Character.tscn::PackedScene::9198643137662897952::1696714923::0::1::::<><>::res://CharacterBody2D.gd<>uid://2poofwtw0w17::::res://Art/pjcr astronaut_zps5jqaqmrt.webp<>uid://dmbtj5uvcarsf::::res://Art/131-1312102_8-bit-arrow-down-hd-png-download-removebg-preview.png<>uid://bgoi1f76u6nv2::::res://UI/O2 bar (good).tscn
-CharacterBody2D.gd::GDScript::-1::1696713298::0::1::::<>CharacterBody2D<>::
-default_env.tres::Environment::415723166745308881::1696714923::0::1::::<><>::
+::res://::1696715064
+Character.gd::GDScript::-1::1696715053::0::1::::<>CharacterBody2D<>::
+Character.tscn::PackedScene::9198643137662897952::1696715064::0::1::::<><>::res://CharacterBody2D.gd<>uid://2poofwtw0w17::::res://Art/pjcr astronaut_zps5jqaqmrt.webp<>uid://dmbtj5uvcarsf::::res://Art/131-1312102_8-bit-arrow-down-hd-png-download-removebg-preview.png<>uid://bgoi1f76u6nv2::::res://UI/O2 bar (good).tscn
+CharacterBody2D.gd::GDScript::-1::1696715053::0::1::::<>CharacterBody2D<>::
+default_env.tres::Environment::415723166745308881::1696715064::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1696711750::0::1::::<><>::
-::res://Art/::1696712932
+::res://Art/::1696714998
 131-1312102_8-bit-arrow-down-hd-png-download-removebg-preview.png::CompressedTexture2D::8004763855050887917::1696711749::1696711749::1::::<><>::
 05309327427543.56364f26daed2.jpg::CompressedTexture2D::4827262484143823061::1696711749::1696711749::1::::<><>::
 BackDrop.png::CompressedTexture2D::7874112284932959223::1696711749::1696711749::1::::<><>::
@@ -17,7 +17,6 @@ cooltext444719029754853.png::CompressedTexture2D::3357588635921063677::169671174
 icon.svg::CompressedTexture2D::3579836377439909231::1696711749::1696711783::1::::<><>::
 Oxygen_tank.png::CompressedTexture2D::3662763250981427125::1696712932::1696712932::1::::<><>::
 pjcr astronaut_zps5jqaqmrt.webp::CompressedTexture2D::1926939781047299316::1696711749::1696711749::1::::<><>::
-reactor.png::CompressedTexture2D::7800785495241918326::1696711749::1696711749::1::::<><>::
 Rocket.png::CompressedTexture2D::3045217719218928174::1696711749::1696711749::1::::<><>::
 RocketMinigameBackground.png::CompressedTexture2D::7935497509420986705::1696711749::1696711749::1::::<><>::
 rocketship.png::CompressedTexture2D::8899566858757614104::1696711749::1696711749::1::::<><>::
@@ -26,31 +25,25 @@ Titan.png::CompressedTexture2D::7225887867582377068::1696711749::1696711749::1::
 TitleScreenBackground.png::CompressedTexture2D::528314492659342522::1696711749::1696711749::1::::<><>::
 volume2.png::CompressedTexture2D::554288647827843454::1696711749::1696711749::1::::<><>::
 volume (2).png::CompressedTexture2D::345735442078929359::1696711749::1696711749::1::::<><>::
-Wind.png::CompressedTexture2D::4386976695745969514::1696711749::1696711783::1::::<><>::
-you lose.png::CompressedTexture2D::4796334019916053080::1696711749::1696711783::1::::<><>::
-::res://GlobalVar/::1696711749
-VolumeManager.gd::GDScript::-1::1696711749::0::1::::<>Node<>::
+::res://GlobalVar/::1696714998
+VolumeManager.gd::GDScript::-1::1696714998::0::1::::<>Node<>::
 ::res://HealthBar/::1696711749
 healthbar_border.png::CompressedTexture2D::661665596605890747::1696711749::1696711749::1::::<><>::
 healthbar_empty.png::CompressedTexture2D::7288716464515298797::1696711749::1696711749::1::::<><>::
 healthbar_full.png::CompressedTexture2D::3531708398552868182::1696711749::1696711749::1::::<><>::
 pBar-Over.png::CompressedTexture2D::6294438442723585293::1696711749::1696711749::1::::<><>::
 pBar-Progressr.png::CompressedTexture2D::6754212555019637576::1696711749::1696711749::1::::<><>::
-::res://Scenes/::1696714923
-game.tscn::PackedScene::548212199209723735::1696714918::0::1::::<><>::
+::res://Scenes/::1696715064
+game.tscn::PackedScene::548212199209723735::1696715058::0::1::::<><>::
 global.tscn::PackedScene::4512885015073629074::1696711749::0::1::::<><>::
-Lose_Screen.tscn::PackedScene::3040411877006918354::1696711749::0::1::::<><>::res://Scenes/YouLose.gd<>uid://calm6kfqt2b5q
-main_menu.tscn::PackedScene::2905350950852643036::1696714917::0::1::::<><>::uid://da7jk18udvsw7::::res://Art/Titan.png<>uid://bn3o82nlhfu1b::::res://Art/cooltext444719029754853.png
-Planet_scene.gd::GDScript::-1::1696714917::0::1::::<>Node2D<>::
-Planet_scene.tscn::PackedScene::4718555972856382657::1696714918::0::1::::<><>::res://Scenes/Planet_scene.gd<>uid://d4b5kqw2n3u7a::::res://Character.tscn<>uid://hahgurjdfaln::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.png<>uid://bnn0d5m30rnws::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_4.jpg<>uid://ce60ewsckesq1::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_4.png<>uid://88lebe2dma8u::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_5.jpg<>uid://daujs2c2rd6e7::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_5.png<>uid://b8045a83s0cjk::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_6.jpg<>uid://upe4ls68cp8q::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_6.png<>uid://cudakut31lw1q::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_tileset.jpg<>uid://c6plb15da7cii::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_tileset.png<>uid://bhfttd0vpberw::::res://TileSets/TileSet v1.0.png<>uid://b5cck174wc4g0::::res://TileSets/TileMap_SF/TileMap_SF/tileset_sf.png<>uid://dsvor7lbupnqf::::res://TileSets/spacestation_tileset/tileset.png<>uid://c1eelakws874p::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_1.jpg<>uid://brvegvvjfdu7j::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_1.png<>uid://cai2o5e7yfg7j::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.jpg<>uid://4sd3oahvppvk::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.png<>uid://drtocfno27886::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.jpg<>uid://c740hnrwp5rfm::::res://Art/BackGround.png<>uid://c10kw4eftiw7g::::res://Scenes/Reactor.tscn<>uid://bsgjf8ackens4::::res://Art/Oxygen_tank.png<>uid://b6p7slt8h7wd0::::res://Art/spaceshipsprites.png
-Reactor.tscn::PackedScene::6650008732829391150::1696714923::0::1::::<><>::uid://dje02d16erma5::::res://Art/reactor.png
-Rocket.gd::GDScript::-1::1696711749::0::1::::<>CharacterBody2D<>::
-Rocket.tscn::PackedScene::1174805623220907016::1696714923::0::1::::<><>::uid://b6p7slt8h7wd0::::res://Art/spaceshipsprites.png<>res://Scenes/Rocket.gd
-Rocketship.tscn::PackedScene::522152229248663614::1696714923::0::1::::<><>::uid://dlcaqqgkl6ypl::::res://Art/RocketMinigameBackground.png<>uid://q0c421s4eb7u::::res://Scenes/Rocket.tscn<>uid://dsvor7lbupnqf::::res://TileSets/spacestation_tileset/tileset.png<>uid://b3rc4ohe3mf8u::::res://Art/Wind.png<>uid://bhfttd0vpberw::::res://TileSets/TileSet v1.0.png<>uid://dq1jyfqgb55to::::res://TileSets/ground.webp<>res://Scenes/Wind_obj.gd
+main_menu.tscn::PackedScene::2905350950852643036::1696715057::0::1::::<><>::uid://da7jk18udvsw7::::res://Art/Titan.png<>uid://bn3o82nlhfu1b::::res://Art/cooltext444719029754853.png
+Planet_scene.gd::GDScript::-1::1696715053::0::1::::<>Node2D<>::
+Planet_scene.tscn::PackedScene::4718555972856382657::1696715058::0::1::::<><>::res://Scenes/Planet_scene.gd<>uid://d4b5kqw2n3u7a::::res://Character.tscn<>uid://hahgurjdfaln::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.png<>uid://bnn0d5m30rnws::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_4.jpg<>uid://ce60ewsckesq1::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_4.png<>uid://88lebe2dma8u::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_5.jpg<>uid://daujs2c2rd6e7::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_5.png<>uid://b8045a83s0cjk::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_6.jpg<>uid://upe4ls68cp8q::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_6.png<>uid://cudakut31lw1q::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_tileset.jpg<>uid://c6plb15da7cii::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_tileset.png<>uid://bhfttd0vpberw::::res://TileSets/TileSet v1.0.png<>uid://b5cck174wc4g0::::res://TileSets/TileMap_SF/TileMap_SF/tileset_sf.png<>uid://dsvor7lbupnqf::::res://TileSets/spacestation_tileset/tileset.png<>uid://c1eelakws874p::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_1.jpg<>uid://brvegvvjfdu7j::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_1.png<>uid://cai2o5e7yfg7j::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.jpg<>uid://4sd3oahvppvk::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.png<>uid://drtocfno27886::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.jpg<>uid://c740hnrwp5rfm::::res://Art/BackGround.png<>uid://c10kw4eftiw7g::::res://Scenes/Reactor.tscn<>uid://bsgjf8ackens4::::res://Art/Oxygen_tank.png<>uid://b6p7slt8h7wd0::::res://Art/spaceshipsprites.png
+Reactor.tscn::PackedScene::6650008732829391150::1696715064::0::1::::<><>::res://Art/reactor.png
+Rocket.gd::GDScript::-1::1696715053::0::1::::<>CharacterBody2D<>::
+Rocket.tscn::PackedScene::1174805623220907016::1696715064::0::1::::<><>::uid://b6p7slt8h7wd0::::res://Art/spaceshipsprites.png<>res://Scenes/Rocket.gd
+Rocketship.tscn::PackedScene::522152229248663614::1696715064::0::1::::<><>::uid://dlcaqqgkl6ypl::::res://Art/RocketMinigameBackground.png<>uid://q0c421s4eb7u::::res://Scenes/Rocket.tscn<>uid://dsvor7lbupnqf::::res://TileSets/spacestation_tileset/tileset.png<>res://Art/Wind.png<>uid://bhfttd0vpberw::::res://TileSets/TileSet v1.0.png<>uid://dq1jyfqgb55to::::res://TileSets/ground.webp<>res://Scenes/Wind_obj.gd
 settings.tscn::PackedScene::6009575360036614763::1696714138::0::1::::<><>::uid://da7jk18udvsw7::::res://Art/Titan.png<>uid://h5rb2k72jtji::::res://Art/volume2.png
-turnu_de_control.tscn::PackedScene::5777520898000626838::1696711749::0::1::::<><>::
-Wind_obj.gd::GDScript::-1::1696711749::0::1::::<>CharacterBody2D<>::
-YouLose.gd::GDScript::-1::1696711749::0::1::::<>Node2D<>::
 ::res://TileSets/::1696711750
 ground.webp::CompressedTexture2D::8336546970490775884::1696711750::1696711750::1::::<><>::
 TileSet v1.0.png::CompressedTexture2D::2889252228040776768::1696711750::1696711750::1::::<><>::
@@ -240,6 +233,6 @@ w1.png::CompressedTexture2D::8435309223694582861::1696711750::1696711750::1::::<
 w2.png::CompressedTexture2D::6488430575451005610::1696711750::1696711750::1::::<><>::
 w3.png::CompressedTexture2D::1152137375494834899::1696711750::1696711750::1::::<><>::
 w4.png::CompressedTexture2D::6224304368454826619::1696711750::1696711750::1::::<><>::
-::res://UI/::1696714917
-O2 bar (good).tscn::PackedScene::2836987514148742321::1696714917::0::1::::<><>::uid://c3h15no6qix7m::::res://HealthBar/pBar-Progressr.png<>uid://cvxcqmv1dwycj::::res://HealthBar/pBar-Over.png<>res://UI/O2 bar.gd
-O2 bar.gd::GDScript::-1::1696713586::0::1::::<>TextureProgressBar<>::
+::res://UI/::1696715057
+O2 bar (good).tscn::PackedScene::2836987514148742321::1696715057::0::1::::<><>::uid://c3h15no6qix7m::::res://HealthBar/pBar-Progressr.png<>uid://cvxcqmv1dwycj::::res://HealthBar/pBar-Over.png<>res://UI/O2 bar.gd
+O2 bar.gd::GDScript::-1::1696715053::0::1::::<>TextureProgressBar<>::
