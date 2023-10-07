@@ -1,5 +1,4 @@
-ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696702931
+ea4bc82a6ad023ab7ee23ee62042989
 Character.gd::GDScript::-1::1696684994::0::1::::<>CharacterBody2D<>::
 Character.tscn::PackedScene::9198643137662897952::1696702938::0::1::::<><>::res://CharacterBody2D.gd<>uid://2poofwtw0w17::::res://Art/pjcr astronaut_zps5jqaqmrt.webp<>uid://dmbtj5uvcarsf::::res://Art/131-1312102_8-bit-arrow-down-hd-png-download-removebg-preview.png<>uid://bgoi1f76u6nv2::::res://UI/O2 bar (good).tscn
 CharacterBody2D.gd::GDScript::-1::1696690630::0::1::::<>CharacterBody2D<>::
@@ -33,8 +32,7 @@ healthbar_empty.png::CompressedTexture2D::7288716464515298797::1696684994::16966
 healthbar_full.png::CompressedTexture2D::3531708398552868182::1696684994::1696684994::1::::<><>::
 pBar-Over.png::CompressedTexture2D::6294438442723585293::1696684994::1696684994::1::::<><>::
 pBar-Progressr.png::CompressedTexture2D::6754212555019637576::1696684994::1696684994::1::::<><>::
-::res://Scenes/::1696702931
-game.tscn::PackedScene::548212199209723735::1696702932::0::1::::<><>::
+
 global.tscn::PackedScene::4512885015073629074::1696680667::0::1::::<><>::
 main_menu.tscn::PackedScene::2905350950852643036::1696702931::0::1::::<><>::uid://da7jk18udvsw7::::res://Art/Titan.png<>uid://bn3o82nlhfu1b::::res://Art/cooltext444719029754853.png
 Planet_scene.gd::GDScript::-1::1696702538::0::1::::<>Node2D<>::
