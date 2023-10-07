@@ -1,0 +1,85 @@
+[gd_scene load_steps=5 format=3 uid="uid://bhnmx81ghclhc"]
+
+[ext_resource type="Texture2D" uid="uid://da7jk18udvsw7" path="res://Art/Titan.png" id="1_empw7"]
+[ext_resource type="Texture2D" uid="uid://bn3o82nlhfu1b" path="res://Art/cooltext444719029754853.png" id="2_qj4wf"]
+
+[sub_resource type="GDScript" id="GDScript_vmya8"]
+resource_name = "Menu"
+script/source = "extends Control
+
+
+
+func _on_play_pressed():
+	get_tree().change_scene_to_file(\"res://scenes/Planet_scene.tscn\")
+
+func _on_settings_pressed():
+	get_tree().change_scene_to_file(\"res://scenes/settings.tscn\")
+
+func _on_exit_pressed():
+	get_tree().quit();
+"
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_lfabw"]
+particles_animation = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 768.0
+offset_bottom = 432.0
+grow_horizontal = 2
+grow_vertical = 2
+script = SubResource("GDScript_vmya8")
+
+[node name="Control" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+clip_contents = true
+layout_direction = 1
+layout_mode = 1
+offset_right = 1218.0
+offset_bottom = 1218.0
+texture = ExtResource("1_empw7")
+
+[node name="MarginContainer" type="MarginContainer" parent="Control"]
+layout_mode = 0
+offset_left = 407.0
+offset_top = 455.0
+offset_right = 751.0
+offset_bottom = 600.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/MarginContainer"]
+layout_mode = 2
+
+[node name="Play" type="Button" parent="Control/MarginContainer/VBoxContainer"]
+material = SubResource("CanvasItemMaterial_lfabw")
+layout_mode = 2
+text = "Play"
+
+[node name="Settings" type="Button" parent="Control/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Settings"
+
+[node name="Exit" type="Button" parent="Control/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Exit"
+
+[node name="TextureRect2" type="TextureRect" parent="Control"]
+layout_mode = 0
+offset_left = 151.0
+offset_top = 117.0
+offset_right = 1046.0
+offset_bottom = 221.0
+texture = ExtResource("2_qj4wf")
+
+[connection signal="pressed" from="Control/MarginContainer/VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Control/MarginContainer/VBoxContainer/Settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="Control/MarginContainer/VBoxContainer/Exit" to="." method="_on_exit_pressed"]

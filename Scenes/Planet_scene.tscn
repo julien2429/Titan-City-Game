@@ -1,56 +1,56 @@
 [gd_scene load_steps=39 format=3 uid="uid://b8hx6sf2krbhh"]
 
-[ext_resource type="PackedScene" uid="uid://d4b5kqw2n3u7a" path="res://Character.tscn" id="1"]
-[ext_resource type="Texture2D" uid="uid://hahgurjdfaln" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.png" id="2_nbbgp"]
-[ext_resource type="Texture2D" uid="uid://bnn0d5m30rnws" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_4.jpg" id="3_x6l0t"]
-[ext_resource type="Texture2D" uid="uid://ce60ewsckesq1" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_4.png" id="4_e6y5g"]
-[ext_resource type="Texture2D" uid="uid://88lebe2dma8u" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_5.jpg" id="5_ptpce"]
-[ext_resource type="Texture2D" uid="uid://daujs2c2rd6e7" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_5.png" id="6_ojj67"]
-[ext_resource type="Texture2D" uid="uid://b8045a83s0cjk" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_6.jpg" id="7_yvubl"]
-[ext_resource type="Texture2D" uid="uid://upe4ls68cp8q" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_6.png" id="8_vnssi"]
-[ext_resource type="Texture2D" uid="uid://cudakut31lw1q" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_tileset.jpg" id="9_c1jmh"]
-[ext_resource type="Texture2D" uid="uid://c6plb15da7cii" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_tileset.png" id="10_1mvm5"]
-[ext_resource type="Texture2D" uid="uid://bhfttd0vpberw" path="res://TileSets/TileSet v1.0.png" id="11_woikt"]
-[ext_resource type="Texture2D" uid="uid://b5cck174wc4g0" path="res://TileSets/TileMap_SF/TileMap_SF/tileset_sf.png" id="12_qiy0o"]
-[ext_resource type="Texture2D" uid="uid://dsvor7lbupnqf" path="res://TileSets/spacestation_tileset/tileset.png" id="13_a0h6x"]
-[ext_resource type="Texture2D" uid="uid://c1eelakws874p" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_1.jpg" id="14_0xwhm"]
-[ext_resource type="Texture2D" uid="uid://brvegvvjfdu7j" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_1.png" id="15_orwgf"]
-[ext_resource type="Texture2D" uid="uid://cai2o5e7yfg7j" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.jpg" id="16_etxrv"]
-[ext_resource type="Texture2D" uid="uid://4sd3oahvppvk" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.png" id="17_25pkj"]
-[ext_resource type="Texture2D" uid="uid://drtocfno27886" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.jpg" id="18_gomuv"]
-[ext_resource type="Texture2D" uid="uid://c740hnrwp5rfm" path="res://Art/BackGround.png" id="19_jqmxr"]
+[ext_resource type="PackedScene" uid="uid://d4b5kqw2n3u7a" path="res://Character.tscn" id="1_ikfqe"]
+[ext_resource type="Texture2D" uid="uid://hahgurjdfaln" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.png" id="2_3rptd"]
+[ext_resource type="Texture2D" uid="uid://bnn0d5m30rnws" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_4.jpg" id="3_4qlgq"]
+[ext_resource type="Texture2D" uid="uid://ce60ewsckesq1" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_4.png" id="4_rudxm"]
+[ext_resource type="Texture2D" uid="uid://88lebe2dma8u" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_5.jpg" id="5_g5u3t"]
+[ext_resource type="Texture2D" uid="uid://daujs2c2rd6e7" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_5.png" id="6_ybhf1"]
+[ext_resource type="Texture2D" uid="uid://b8045a83s0cjk" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_6.jpg" id="7_68u4t"]
+[ext_resource type="Texture2D" uid="uid://upe4ls68cp8q" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_6.png" id="8_3dsos"]
+[ext_resource type="Texture2D" uid="uid://cudakut31lw1q" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_tileset.jpg" id="9_oyeg5"]
+[ext_resource type="Texture2D" uid="uid://c6plb15da7cii" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_tileset.png" id="10_gq3rr"]
+[ext_resource type="Texture2D" uid="uid://bhfttd0vpberw" path="res://TileSets/TileSet v1.0.png" id="11_68mkc"]
+[ext_resource type="Texture2D" uid="uid://b5cck174wc4g0" path="res://TileSets/TileMap_SF/TileMap_SF/tileset_sf.png" id="12_1kl4w"]
+[ext_resource type="Texture2D" uid="uid://dsvor7lbupnqf" path="res://TileSets/spacestation_tileset/tileset.png" id="13_kuhfn"]
+[ext_resource type="Texture2D" uid="uid://c1eelakws874p" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_1.jpg" id="14_c5f00"]
+[ext_resource type="Texture2D" uid="uid://brvegvvjfdu7j" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_1.png" id="15_kwmq5"]
+[ext_resource type="Texture2D" uid="uid://cai2o5e7yfg7j" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.jpg" id="16_k6sav"]
+[ext_resource type="Texture2D" uid="uid://4sd3oahvppvk" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.png" id="17_v7e6q"]
+[ext_resource type="Texture2D" uid="uid://drtocfno27886" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.jpg" id="18_2yach"]
+[ext_resource type="Texture2D" uid="uid://c740hnrwp5rfm" path="res://Art/BackGround.png" id="19_hkj3o"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tjq3g"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uh2w5"]
-texture = ExtResource("2_nbbgp")
+texture = ExtResource("2_3rptd")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tpwmx"]
-texture = ExtResource("3_x6l0t")
+texture = ExtResource("3_4qlgq")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cphx4"]
-texture = ExtResource("4_e6y5g")
+texture = ExtResource("4_rudxm")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jv1ar"]
-texture = ExtResource("5_ptpce")
+texture = ExtResource("5_g5u3t")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0m2j7"]
-texture = ExtResource("6_ojj67")
+texture = ExtResource("6_ybhf1")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pynvo"]
-texture = ExtResource("7_yvubl")
+texture = ExtResource("7_68u4t")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tspxs"]
-texture = ExtResource("8_vnssi")
+texture = ExtResource("8_3dsos")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_58e7j"]
-texture = ExtResource("9_c1jmh")
+texture = ExtResource("9_oyeg5")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xw6tu"]
-texture = ExtResource("10_1mvm5")
+texture = ExtResource("10_gq3rr")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pt0n1"]
-texture = ExtResource("11_woikt")
+texture = ExtResource("11_68mkc")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -338,7 +338,7 @@ texture = ExtResource("11_woikt")
 19:15/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xxg2n"]
-texture = ExtResource("12_qiy0o")
+texture = ExtResource("12_1kl4w")
 1:0/0 = 0
 2:0/0 = 0
 5:0/0 = 0
@@ -1750,7 +1750,7 @@ texture = ExtResource("12_qiy0o")
 43:67/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t2ij1"]
-texture = ExtResource("13_a0h6x")
+texture = ExtResource("13_kuhfn")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -1989,19 +1989,19 @@ texture = ExtResource("13_a0h6x")
 7:17/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sq3yl"]
-texture = ExtResource("14_0xwhm")
+texture = ExtResource("14_c5f00")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_oexkl"]
-texture = ExtResource("15_orwgf")
+texture = ExtResource("15_kwmq5")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_43iuv"]
-texture = ExtResource("16_etxrv")
+texture = ExtResource("16_k6sav")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5xpbi"]
-texture = ExtResource("17_25pkj")
+texture = ExtResource("17_v7e6q")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jtmv0"]
-texture = ExtResource("18_gomuv")
+texture = ExtResource("18_2yach")
 
 [sub_resource type="TileSet" id="TileSet_210qt"]
 sources/1 = SubResource("TileSetAtlasSource_tjq3g")
@@ -2025,7 +2025,7 @@ sources/18 = SubResource("TileSetAtlasSource_xw6tu")
 
 [node name="Node2D" type="Node2D"]
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("1")]
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_ikfqe")]
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_210qt")
@@ -2039,14 +2039,14 @@ offset_right = 1461.0
 offset_bottom = 1614.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-texture = ExtResource("19_jqmxr")
+texture = ExtResource("19_hkj3o")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(-153, -114)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 build_mode = 1
-polygon = PackedVector2Array(-372, -148, -226, -294, 16, -430, 299, -521, 717, -521, 1024, -395, 1246, -229, 1443, -2, 1533, 235, 1589, 441, 1584, 683, 1503, 935, 1332, 1152, 1125, 1318, 903, 1454, 646, 1520, 349, 1545, 67, 1475, -175, 1364, -387, 1157, -563, 855, -609, 537, -558, 230, -478, -7)
+polygon = PackedVector2Array(-372, -148, -226, -294, 16, -430, 293, -513, 717, -521, 1024, -395, 1246, -229, 1443, -2, 1533, 235, 1589, 441, 1584, 683, 1503, 935, 1332, 1152, 1125, 1318, 903, 1454, 582, 1537, 329, 1529, 67, 1475, -175, 1364, -387, 1157, -563, 855, -616, 484, -573, 185, -478, -7)
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(-1, 0)

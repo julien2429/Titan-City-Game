@@ -1,0 +1,95 @@
+[gd_scene load_steps=5 format=3 uid="uid://crvc3fmngqwid"]
+
+[ext_resource type="Texture2D" uid="uid://da7jk18udvsw7" path="res://Titan.png" id="1_yayfa"]
+[ext_resource type="Texture2D" uid="uid://h5rb2k72jtji" path="res://volume2.png" id="2_5lym2"]
+
+[sub_resource type="GDScript" id="GDScript_ixmgw"]
+script/source = "extends Node
+
+
+var slider : HSlider
+var label : Label
+
+func _ready():
+	slider = $HSlider
+	label = $Label
+   
+
+func _on_slider_value_changed(value):
+	update_label_text(value)
+
+func update_label_text(value):
+	label.text = \"Level: \" + str(value)
+
+
+
+func _on_back_pressed():
+ get_tree().change_scene_to_file(\"res://Scenes/main_scene.tscn\")
+"
+
+[sub_resource type="GDScript" id="GDScript_b0scb"]
+script/source = "extends Label
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+"
+
+[node name="Settings" type="Node"]
+script = SubResource("GDScript_ixmgw")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+layout_mode = 0
+offset_left = -7.0
+offset_top = -449.0
+offset_right = 1164.0
+offset_bottom = 661.0
+texture = ExtResource("1_yayfa")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_left = 407.0
+offset_top = 455.0
+offset_right = 751.0
+offset_bottom = 600.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Back" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Back"
+
+[node name="HSlider" type="HSlider" parent="."]
+offset_left = 352.0
+offset_top = 225.0
+offset_right = 802.0
+offset_bottom = 375.0
+step = 5.0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 437.0
+offset_top = 204.0
+offset_right = 708.0
+offset_bottom = 269.0
+texture = ExtResource("2_5lym2")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 553.0
+offset_top = 328.0
+offset_right = 593.0
+offset_bottom = 351.0
+script = SubResource("GDScript_b0scb")
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Back" to="." method="_on_back_pressed"]
