@@ -1,12 +1,10 @@
-[gd_scene load_steps=13 format=3 uid="uid://ho61hgtjsxvy"]
+[gd_scene load_steps=11 format=3 uid="uid://ho61hgtjsxvy"]
 
 [ext_resource type="Texture2D" uid="uid://dlcaqqgkl6ypl" path="res://Art/RocketMinigameBackground.png" id="1_cl6pd"]
 [ext_resource type="PackedScene" uid="uid://q0c421s4eb7u" path="res://Scenes/Rocket.tscn" id="2_yevn1"]
 [ext_resource type="Texture2D" uid="uid://dsvor7lbupnqf" path="res://TileSets/spacestation_tileset/tileset.png" id="3_hlivm"]
-[ext_resource type="Texture2D" uid="uid://b3rc4ohe3mf8u" path="res://Art/Wind.png" id="3_ustlv"]
 [ext_resource type="Texture2D" uid="uid://bhfttd0vpberw" path="res://TileSets/TileSet v1.0.png" id="4_teleb"]
 [ext_resource type="Texture2D" uid="uid://dq1jyfqgb55to" path="res://TileSets/ground.webp" id="5_hke24"]
-[ext_resource type="Script" path="res://Scenes/Wind_obj.gd" id="6_027n1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rg1uv"]
 texture = ExtResource("3_hlivm")
@@ -17847,13 +17845,5 @@ contact_monitor = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D/RigidBody2D"]
 position = Vector2(-31, 63)
 shape = SubResource("RectangleShape2D_rkyjf")
-
-[node name="Wind_obj" type="CharacterBody2D" parent="."]
-script = ExtResource("6_027n1")
-
-[node name="Sprite2D" type="Sprite2D" parent="Wind_obj"]
-position = Vector2(697.5, 707)
-scale = Vector2(5.83, 3.372)
-texture = ExtResource("3_ustlv")
 
 [connection signal="body_entered" from="StaticBody2D/RigidBody2D" to="CharacterBody2D" method="_on_rigid_body_2d_body_entered"]

@@ -1,6 +1,5 @@
-[gd_scene load_steps=41 format=3 uid="uid://b8hx6sf2krbhh"]
+[gd_scene load_steps=39 format=3 uid="uid://b8hx6sf2krbhh"]
 
-[ext_resource type="Script" path="res://Scenes/Planet_scene.gd" id="1_1pk0j"]
 [ext_resource type="PackedScene" uid="uid://d4b5kqw2n3u7a" path="res://Character.tscn" id="1_ikfqe"]
 [ext_resource type="Texture2D" uid="uid://hahgurjdfaln" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.png" id="2_3rptd"]
 [ext_resource type="Texture2D" uid="uid://bnn0d5m30rnws" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_4.jpg" id="3_4qlgq"]
@@ -20,7 +19,6 @@
 [ext_resource type="Texture2D" uid="uid://4sd3oahvppvk" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.png" id="17_v7e6q"]
 [ext_resource type="Texture2D" uid="uid://drtocfno27886" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.jpg" id="18_2yach"]
 [ext_resource type="Texture2D" uid="uid://c740hnrwp5rfm" path="res://Art/BackGround.png" id="19_hkj3o"]
-[ext_resource type="PackedScene" uid="uid://dva5kq3ttsjcr" path="res://Scenes/Reactor.tscn" id="21_1hahw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tjq3g"]
 
@@ -2026,7 +2024,6 @@ sources/17 = SubResource("TileSetAtlasSource_58e7j")
 sources/18 = SubResource("TileSetAtlasSource_xw6tu")
 
 [node name="Node2D" type="Node2D"]
-script = ExtResource("1_1pk0j")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_ikfqe")]
 
@@ -2053,6 +2050,3 @@ polygon = PackedVector2Array(-372, -148, -226, -294, 16, -430, 293, -513, 717, -
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(-1, 0)
-
-[node name="Reactor" parent="." instance=ExtResource("21_1hahw")]
-position = Vector2(901, 499)
