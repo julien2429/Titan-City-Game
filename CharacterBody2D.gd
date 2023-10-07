@@ -8,6 +8,9 @@ extends CharacterBody2D
 @onready var animation_tree = $AnimationTree
 @onready var state_machine = animation_tree.get("parameters/playback")
 
+@onready var all_interactions = []
+@onready var interactLabel = $InteractNode/InteractLabel
+
 
 func _ready():
 	update_animation_parameters(starting_direction)
@@ -44,3 +47,20 @@ func pick_new_state():
 		state_machine.travel("walk")
 	else:
 		state_machine.travel("idle")
+
+##################################################################################
+#Interaction Methods
+func _on_actionable_finder_area_entered(area):
+	all_interactions.insert(0,area)
+	updateInteractions()
+
+
+func _on_actionable_finder_area_exited(area):
+	all_interactions.erase(area)
+	updateInteractions()
+
+func updateInteractions():
+	if all_interactions:
+		interactLabel.text = all_interactions[0].interact_text 
+
+

@@ -1,4 +1,4 @@
-[gd_scene load_steps=30 format=3 uid="uid://d4b5kqw2n3u7a"]
+[gd_scene load_steps=31 format=3 uid="uid://d4b5kqw2n3u7a"]
 
 [ext_resource type="Script" path="res://CharacterBody2D.gd" id="1_ti5vi"]
 [ext_resource type="Texture2D" uid="uid://2poofwtw0w17" path="res://Art/pjcr astronaut_zps5jqaqmrt.webp" id="2_lgas4"]
@@ -227,11 +227,15 @@ _data = {
 "walk_up": SubResource("Animation_in7rv")
 }
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[sub_resource type="CircleShape2D" id="CircleShape2D_bm88j"]
+radius = 42.107
+
+[node name="Astronaut" type="CharacterBody2D"]
 position = Vector2(193, 127)
 script = ExtResource("1_ti5vi")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+y_sort_enabled = true
 position = Vector2(9, -12.5)
 scale = Vector2(1.5625, 1.78125)
 texture = ExtResource("2_lgas4")
@@ -239,6 +243,7 @@ hframes = 3
 vframes = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 z_index = 4
 position = Vector2(10.5, -7.5)
 shape = SubResource("RectangleShape2D_r5j70")
@@ -267,3 +272,22 @@ offset_left = -24.0
 offset_top = -62.0
 offset_right = 47.0
 offset_bottom = -50.0
+
+[node name="InteractNode" type="Node2D" parent="."]
+
+[node name="InteractionArea" type="Area2D" parent="InteractNode"]
+collision_layer = 0
+collision_mask = 256
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractNode/InteractionArea"]
+position = Vector2(10, -9)
+shape = SubResource("CircleShape2D_bm88j")
+
+[node name="InteractLabel" type="Label" parent="InteractNode"]
+z_index = 1
+offset_left = 42.0
+offset_top = -47.0
+offset_right = 82.0
+offset_bottom = -24.0
+text = "test"

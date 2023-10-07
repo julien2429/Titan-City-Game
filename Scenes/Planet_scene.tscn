@@ -1,5 +1,6 @@
-[gd_scene load_steps=39 format=3 uid="uid://b8hx6sf2krbhh"]
+[gd_scene load_steps=43 format=3 uid="uid://b8hx6sf2krbhh"]
 
+[ext_resource type="Script" path="res://Scenes/Planet_scene.gd" id="1_2hpwb"]
 [ext_resource type="PackedScene" uid="uid://d4b5kqw2n3u7a" path="res://Character.tscn" id="1_ikfqe"]
 [ext_resource type="Texture2D" uid="uid://hahgurjdfaln" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.png" id="2_3rptd"]
 [ext_resource type="Texture2D" uid="uid://bnn0d5m30rnws" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_4.jpg" id="3_4qlgq"]
@@ -19,6 +20,7 @@
 [ext_resource type="Texture2D" uid="uid://4sd3oahvppvk" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.png" id="17_v7e6q"]
 [ext_resource type="Texture2D" uid="uid://drtocfno27886" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.jpg" id="18_2yach"]
 [ext_resource type="Texture2D" uid="uid://c740hnrwp5rfm" path="res://Art/BackGround.png" id="19_hkj3o"]
+[ext_resource type="Texture2D" uid="uid://dje02d16erma5" path="res://Art/reactor.png" id="20_u0qlf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tjq3g"]
 
@@ -2023,9 +2025,18 @@ sources/16 = SubResource("TileSetAtlasSource_tspxs")
 sources/17 = SubResource("TileSetAtlasSource_58e7j")
 sources/18 = SubResource("TileSetAtlasSource_xw6tu")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_trlvq"]
+size = Vector2(91, 73.5)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hgrar"]
+radius = 77.0
+
 [node name="Node2D" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_2hpwb")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_ikfqe")]
+z_index = 1
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_210qt")
@@ -2045,8 +2056,35 @@ texture = ExtResource("19_hkj3o")
 position = Vector2(-153, -114)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+position = Vector2(-13, 50)
 build_mode = 1
 polygon = PackedVector2Array(-372, -148, -226, -294, 16, -430, 293, -513, 717, -521, 1024, -395, 1246, -229, 1443, -2, 1533, 235, 1589, 441, 1584, 683, 1503, 935, 1332, 1152, 1125, 1318, 903, 1454, 582, 1537, 329, 1529, 67, 1475, -175, 1364, -387, 1157, -563, 855, -616, 484, -573, 185, -478, -7)
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(-1, 0)
+
+[node name="Reactor" type="CharacterBody2D" parent="."]
+y_sort_enabled = true
+position = Vector2(490, 366)
+
+[node name="Sprite2D" type="Sprite2D" parent="Reactor"]
+z_index = 10
+y_sort_enabled = true
+position = Vector2(26, -176)
+scale = Vector2(1.01042, 0.979167)
+texture = ExtResource("20_u0qlf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Reactor"]
+position = Vector2(1.5, 2.25)
+shape = SubResource("RectangleShape2D_trlvq")
+
+[node name="InteractArea" type="Area2D" parent="Reactor"]
+position = Vector2(3, -1)
+collision_layer = 2
+collision_mask = 0
+monitoring = false
+
+[node name="Interaction" type="CollisionShape2D" parent="Reactor/InteractArea"]
+visible = false
+position = Vector2(-2, -3)
+shape = SubResource("CircleShape2D_hgrar")
