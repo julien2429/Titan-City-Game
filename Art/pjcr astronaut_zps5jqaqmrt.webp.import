@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://nncyrkxbm0rx"
-path="res://.godot/imported/Background2.png-7197ab623eb653a63603ede5a0031047.ctex"
+uid="uid://2poofwtw0w17"
+path="res://.godot/imported/pjcr astronaut_zps5jqaqmrt.webp-4ebdd4286ae6e5f01cca1bd06719aa1a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Background2.png"
-dest_files=["res://.godot/imported/Background2.png-7197ab623eb653a63603ede5a0031047.ctex"]
+source_file="res://Art/pjcr astronaut_zps5jqaqmrt.webp"
+dest_files=["res://.godot/imported/pjcr astronaut_zps5jqaqmrt.webp-4ebdd4286ae6e5f01cca1bd06719aa1a.ctex"]
 
 [params]
 

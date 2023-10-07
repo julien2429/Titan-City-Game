@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dkgjqjvdse5xr"
-path="res://.godot/imported/BackDrop.png-45e72e49cef5313e22843c320f296960.ctex"
+uid="uid://c3h15no6qix7m"
+path="res://.godot/imported/pBar-Progressr.png-fcdedbe3756768205f57b7cb04aeca41.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://BackDrop.png"
-dest_files=["res://.godot/imported/BackDrop.png-45e72e49cef5313e22843c320f296960.ctex"]
+source_file="res://HealthBar/pBar-Progressr.png"
+dest_files=["res://.godot/imported/pBar-Progressr.png-fcdedbe3756768205f57b7cb04aeca41.ctex"]
 
 [params]
 

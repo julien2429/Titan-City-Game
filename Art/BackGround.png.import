@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmbtj5uvcarsf"
-path="res://.godot/imported/131-1312102_8-bit-arrow-down-hd-png-download-removebg-preview.png-0a1fb845b7c4c524c08182b582e6fa71.ctex"
+uid="uid://c740hnrwp5rfm"
+path="res://.godot/imported/BackGround.png-52a3784abe11e5456c068a81d2756eff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://131-1312102_8-bit-arrow-down-hd-png-download-removebg-preview.png"
-dest_files=["res://.godot/imported/131-1312102_8-bit-arrow-down-hd-png-download-removebg-preview.png-0a1fb845b7c4c524c08182b582e6fa71.ctex"]
+source_file="res://Art/BackGround.png"
+dest_files=["res://.godot/imported/BackGround.png-52a3784abe11e5456c068a81d2756eff.ctex"]
 
 [params]
 

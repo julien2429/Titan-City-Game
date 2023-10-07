@@ -1,8 +1,9 @@
-[gd_scene load_steps=29 format=3 uid="uid://d4b5kqw2n3u7a"]
+[gd_scene load_steps=30 format=3 uid="uid://d4b5kqw2n3u7a"]
 
 [ext_resource type="Script" path="res://CharacterBody2D.gd" id="1_ti5vi"]
-[ext_resource type="Texture2D" uid="uid://2poofwtw0w17" path="res://pjcr astronaut_zps5jqaqmrt.webp" id="2_52242"]
-[ext_resource type="Texture2D" uid="uid://dmbtj5uvcarsf" path="res://131-1312102_8-bit-arrow-down-hd-png-download-removebg-preview.png" id="3_pssx3"]
+[ext_resource type="Texture2D" uid="uid://2poofwtw0w17" path="res://Art/pjcr astronaut_zps5jqaqmrt.webp" id="2_lgas4"]
+[ext_resource type="Texture2D" uid="uid://dmbtj5uvcarsf" path="res://Art/131-1312102_8-bit-arrow-down-hd-png-download-removebg-preview.png" id="3_lek1m"]
+[ext_resource type="PackedScene" uid="uid://bgoi1f76u6nv2" path="res://UI/O2 bar (good).tscn" id="4_1ypb6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r5j70"]
 size = Vector2(37, 45)
@@ -233,7 +234,7 @@ script = ExtResource("1_ti5vi")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(9, -12.5)
 scale = Vector2(1.5625, 1.78125)
-texture = ExtResource("2_52242")
+texture = ExtResource("2_lgas4")
 hframes = 3
 vframes = 4
 
@@ -259,4 +260,10 @@ libraries = {
 [node name="Compass" type="Sprite2D" parent="."]
 position = Vector2(504, 273)
 scale = Vector2(0.112526, 0.11211)
-texture = ExtResource("3_pssx3")
+texture = ExtResource("3_lek1m")
+
+[node name="O2 bar" parent="." instance=ExtResource("4_1ypb6")]
+offset_left = -24.0
+offset_top = -62.0
+offset_right = 47.0
+offset_bottom = -50.0
