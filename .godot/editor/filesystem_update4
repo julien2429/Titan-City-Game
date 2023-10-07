@@ -9,3 +9,6 @@ res://Scenes/Planet_scene.tscn
 res://scenes/settings.tscn
 res://Scenes/game.tscn
 res://CharacterBody2D.gd
+res://Scenes/Rocketship.tscn
+res://Scenes/Rocket.tscn
+res://Scenes/Rocket.gd

@@ -36,7 +36,6 @@ func rotate_compass():
 	var y: float = 0
 	
 	angle = atan2( x - position[0]  , -(y - position[1]) )
-	print(angle)
 	compass.rotation = angle + 3.14
 	
 func pick_new_state():
