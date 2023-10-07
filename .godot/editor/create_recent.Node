@@ -1,13 +1,14 @@
+Label
+CollisionShape2D
+Sprite2D
+CharacterBody2D
 RigidBody2D
 StaticBody2D
 Area2D
 RemoteTransform2D
 Camera2D
 TileMap
-CollisionShape2D
 CollisionPolygon2D
-Sprite2D
-CharacterBody2D
 TextureRect
 AnimationPlayer
 AnimationTree
