@@ -1,8 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696678492
-7d595a64c99a634d94759de8096cca14.png::CompressedTexture2D::6820787241368062833::1696614259::1696615549::1::::<><>::
+::res://::1696679057
 131-1312102_8-bit-arrow-down-hd-png-download-removebg-preview.png::CompressedTexture2D::8004763855050887917::1696675271::1696675293::1::::<><>::
-131-1312102_8-bit-arrow-down-hd-png-download.png::CompressedTexture2D::1739865271888509277::1696675036::1696675037::1::::<><>::
 05309327427543.56364f26daed2.jpg::CompressedTexture2D::4827262484143823061::1696673230::1696673231::1::::<><>::
 BackDrop.png::CompressedTexture2D::7874112284932959223::1696669292::1696669295::1::::<><>::
 BackDropPoate.png::CompressedTexture2D::5244437168698492155::1696669701::1696670003::1::::<><>::
@@ -11,15 +9,10 @@ BackGround.png::CompressedTexture2D::7080282454133518042::1696670599::1696670601
 Character.gd::GDScript::-1::1696615654::0::1::::<>CharacterBody2D<>::
 Character.tscn::PackedScene::9198643137662897952::1696678492::0::1::::<><>::res://CharacterBody2D.gd<>uid://2poofwtw0w17::::res://pjcr astronaut_zps5jqaqmrt.webp<>uid://dmbtj5uvcarsf::::res://131-1312102_8-bit-arrow-down-hd-png-download-removebg-preview.png
 CharacterBody2D.gd::GDScript::-1::1696677507::0::1::::<>CharacterBody2D<>::
-dcbwv3h-47b1c55e-0154-46ec-afec-64fda9477530.png::CompressedTexture2D::2060193763206338285::1696614353::1696615549::1::::<><>::
 default_env.tres::Environment::415723166745308881::1696678492::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1696617809::0::1::::<><>::
-icon.png::CompressedTexture2D::3756078411261536450::1696613824::1696615549::1::::<><>::
 Main Scene.tscn::PackedScene::4718555972856382657::1696678491::0::1::::<><>::uid://d4b5kqw2n3u7a::::res://Character.tscn<>uid://hahgurjdfaln::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.png<>uid://c740hnrwp5rfm::::res://BackGround.png<>uid://bnn0d5m30rnws::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_4.jpg<>uid://ce60ewsckesq1::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_4.png<>uid://88lebe2dma8u::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_5.jpg<>uid://daujs2c2rd6e7::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_5.png<>uid://b8045a83s0cjk::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_6.jpg<>uid://upe4ls68cp8q::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_6.png<>uid://cudakut31lw1q::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_tileset.jpg<>uid://c6plb15da7cii::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_tileset.png<>uid://bhfttd0vpberw::::res://TileSets/TileSet v1.0.png<>uid://b5cck174wc4g0::::res://TileSets/TileMap_SF/TileMap_SF/tileset_sf.png<>uid://dsvor7lbupnqf::::res://TileSets/spacestation_tileset/tileset.png<>uid://c1eelakws874p::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_1.jpg<>uid://brvegvvjfdu7j::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_1.png<>uid://cai2o5e7yfg7j::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.jpg<>uid://4sd3oahvppvk::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.png<>uid://drtocfno27886::::res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.jpg<>uid://btrqceo6tetre::::res://icon.png
-ow325orhzy131.png::CompressedTexture2D::8588247166092355859::1696660767::1696660769::1::::<><>::
-pixel-art-video-game-direction-arrow-button-direction-key-icon-for-8bit-game-on-white-background-vector-fotor-bg-remover-2023100712339.png::CompressedTexture2D::7325358532608637128::1696671189::1696671198::1::::<><>::
 pjcr astronaut_zps5jqaqmrt.webp::CompressedTexture2D::1926939781047299316::1696660141::1696660462::1::::<><>::
-spacex_astronaut_spritesheet_by_gogoat1_dfsectu-fullview.png::CompressedTexture2D::6545156231294559333::1696659685::1696659685::1::::<><>::
 TitleScreenBackground.png::CompressedTexture2D::528314492659342522::1696670562::1696670601::1::::<><>::
 ::res://TileSets/::1696672295
 TileSet v1.0.png::CompressedTexture2D::2889252228040776768::1696672056::1696672295::1::::<><>::
