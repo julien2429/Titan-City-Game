@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=3 uid="uid://b8hx6sf2krbhh"]
+[gd_scene load_steps=43 format=3 uid="uid://b8hx6sf2krbhh"]
 
 [ext_resource type="Script" path="res://Scenes/Planet_scene.gd" id="1_1pk0j"]
 [ext_resource type="PackedScene" uid="uid://d4b5kqw2n3u7a" path="res://Character.tscn" id="1_ikfqe"]
@@ -20,7 +20,9 @@
 [ext_resource type="Texture2D" uid="uid://4sd3oahvppvk" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_2.png" id="17_v7e6q"]
 [ext_resource type="Texture2D" uid="uid://drtocfno27886" path="res://TileSets/k1_m_topdown_tileset_1/k1_m_topdown_tileset_1/tdrpg_preview_3.jpg" id="18_2yach"]
 [ext_resource type="Texture2D" uid="uid://c740hnrwp5rfm" path="res://Art/BackGround.png" id="19_hkj3o"]
-[ext_resource type="PackedScene" uid="uid://dva5kq3ttsjcr" path="res://Scenes/Reactor.tscn" id="21_1hahw"]
+[ext_resource type="PackedScene" uid="uid://c10kw4eftiw7g" path="res://Scenes/Reactor.tscn" id="21_1hahw"]
+[ext_resource type="Texture2D" uid="uid://bsgjf8ackens4" path="res://Art/Oxygen_tank.png" id="22_jaoen"]
+[ext_resource type="Texture2D" uid="uid://b6p7slt8h7wd0" path="res://Art/spaceshipsprites.png" id="23_rijjp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tjq3g"]
 
@@ -2056,3 +2058,26 @@ position = Vector2(-1, 0)
 
 [node name="Reactor" parent="." instance=ExtResource("21_1hahw")]
 position = Vector2(901, 499)
+
+[node name="Oxygen_tank" type="Sprite2D" parent="."]
+position = Vector2(285, -4.00002)
+scale = Vector2(0.16, 0.16)
+texture = ExtResource("22_jaoen")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Oxygen_tank"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Oxygen_tank/StaticBody2D"]
+polygon = PackedVector2Array(-200, -112.5, -137.5, -162.5, 137.5, -168.75, 237.5, -68.7499, 243.75, 75, 212.5, 193.75, -168.75, 193.75, -262.5, 100, -256.25, -74.9998)
+
+[node name="RocketShip" type="Sprite2D" parent="."]
+position = Vector2(54.75, -4.75)
+scale = Vector2(3.96053, 3.96053)
+texture = ExtResource("23_rijjp")
+hframes = 3
+vframes = 9
+frame = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RocketShip"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RocketShip/StaticBody2D"]
+polygon = PackedVector2Array(-2.96678, -10.1628, 0.315614, -19.2525, 2.84053, -17.485, 6.8804, -13.1927, 8.90033, -9.9103, 12.9402, -5.87043, 19, 9.27907, 17.4851, 14.8339, 0.568106, 18.8738, -16.6013, 13.8239, -18.3688, 8.01661, -12.309, -5.11296, -0.694353, -19)

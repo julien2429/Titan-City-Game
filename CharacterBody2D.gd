@@ -32,12 +32,12 @@ func update_animation_parameters( move_input : Vector2 ):
 
 func rotate_compass():
 	var angle : float
-	var x: float = 0
-	var y: float = 0
+	var x: float = get_parent().x[0]
+	var y: float = get_parent().y[0]
 	
 	angle = atan2( x - position[0]  , -(y - position[1]) )
 	compass.rotation = angle + 3.14
-	
+		
 func pick_new_state():
 	if(velocity != Vector2.ZERO):
 		state_machine.travel("walk")

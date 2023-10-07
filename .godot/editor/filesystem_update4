@@ -5,7 +5,7 @@ res://Scenes/Planet_scene.tscn
 res://Scenes/game.tscn
 res://Scenes/Rocketship.tscn
 res://Scenes/Rocket.tscn
-res://Scenes/Planet_scene.gd
 res://Scenes/Reactor.tscn
 res://Character.tscn
 res://scenes/settings.tscn
+res://Scenes/Planet_scene.gd

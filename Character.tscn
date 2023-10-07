@@ -258,18 +258,21 @@ libraries = {
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Compass" type="Sprite2D" parent="."]
-position = Vector2(504, 273)
-scale = Vector2(0.112526, 0.11211)
+position = Vector2(11, -43)
+scale = Vector2(0.05867, 0.0584531)
 texture = ExtResource("3_lek1m")
 
-[node name="O2 bar" parent="." instance=ExtResource("4_1ypb6")]
-offset_left = -24.0
-offset_top = -62.0
-offset_right = 47.0
-offset_bottom = -50.0
+[node name="O2bar" parent="." instance=ExtResource("4_1ypb6")]
+offset_left = -27.0
+offset_top = -37.0
+offset_right = -15.0
+offset_bottom = 5.0
+fill_mode = 3
+tint_under = Color(0.956863, 0.917647, 0.898039, 0.34902)
+tint_over = Color(0, 0, 0, 0.878431)
 
 [node name="Label" type="Label" parent="."]
-z_index = 4
+z_index = 10
 offset_left = 30.0
 offset_top = -29.0
 offset_right = 70.0
