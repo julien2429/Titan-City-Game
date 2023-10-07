@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://bgoi1f76u6nv2"]
+
+[ext_resource type="Texture2D" uid="uid://c3h15no6qix7m" path="res://HealthBar/pBar-Progressr.png" id="1_v0sqs"]
+[ext_resource type="Texture2D" uid="uid://cvxcqmv1dwycj" path="res://HealthBar/pBar-Over.png" id="2_uu2ns"]
+[ext_resource type="Script" path="res://UI/O2 bar.gd" id="3_j8dhp"]
+
+[node name="O2 bar" type="TextureProgressBar"]
+offset_right = 34.0
+offset_bottom = 6.0
+value = 70.0
+nine_patch_stretch = true
+stretch_margin_left = 3
+stretch_margin_top = 3
+stretch_margin_right = 3
+stretch_margin_bottom = 3
+texture_under = ExtResource("1_v0sqs")
+texture_over = ExtResource("2_uu2ns")
+texture_progress = ExtResource("1_v0sqs")
+tint_under = Color(0.372549, 0.262745, 0.211765, 0.878431)
+tint_over = Color(0.513726, 0.352941, 0.835294, 0.878431)
+tint_progress = Color(0.0588235, 0.341176, 0.905882, 1)
+script = ExtResource("3_j8dhp")
