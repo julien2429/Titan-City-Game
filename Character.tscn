@@ -1,9 +1,10 @@
-[gd_scene load_steps=30 format=3 uid="uid://d4b5kqw2n3u7a"]
+[gd_scene load_steps=31 format=3 uid="uid://d4b5kqw2n3u7a"]
 
 [ext_resource type="Script" path="res://CharacterBody2D.gd" id="1_ti5vi"]
 [ext_resource type="Texture2D" uid="uid://2poofwtw0w17" path="res://Art/pjcr astronaut_zps5jqaqmrt.webp" id="2_lgas4"]
 [ext_resource type="Texture2D" uid="uid://dmbtj5uvcarsf" path="res://Art/131-1312102_8-bit-arrow-down-hd-png-download-removebg-preview.png" id="3_lek1m"]
 [ext_resource type="PackedScene" uid="uid://bgoi1f76u6nv2" path="res://UI/O2 bar (good).tscn" id="4_1ypb6"]
+[ext_resource type="AudioStream" uid="uid://b27qnjo680vux" path="res://Art/going-on-a-forest-road-gravel-and-grass-6404.mp3" id="5_5gnaq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r5j70"]
 size = Vector2(37, 45)
@@ -277,3 +278,6 @@ offset_left = 30.0
 offset_top = -29.0
 offset_right = 70.0
 offset_bottom = -6.0
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_5gnaq")

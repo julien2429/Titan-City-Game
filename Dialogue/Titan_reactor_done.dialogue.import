@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_10"
+type="Resource"
+uid="uid://dcby3o6c1r4vc"
+path="res://.godot/imported/Titan_reactor_done.dialogue-d9177aaf983c0be8399e5b89a927d196.tres"
+
+[deps]
+
+source_file="res://Dialogue/Titan_reactor_done.dialogue"
+dest_files=["res://.godot/imported/Titan_reactor_done.dialogue-d9177aaf983c0be8399e5b89a927d196.tres"]
+
+[params]
+
+defaults=true

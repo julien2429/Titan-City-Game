@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=3 uid="uid://b8hx6sf2krbhh"]
+[gd_scene load_steps=45 format=3 uid="uid://b8hx6sf2krbhh"]
 
 [ext_resource type="Script" path="res://Scenes/Planet_scene.gd" id="1_1pk0j"]
 [ext_resource type="PackedScene" uid="uid://d4b5kqw2n3u7a" path="res://Character.tscn" id="1_ikfqe"]
@@ -23,6 +23,8 @@
 [ext_resource type="PackedScene" uid="uid://c10kw4eftiw7g" path="res://Scenes/Reactor.tscn" id="21_1hahw"]
 [ext_resource type="Texture2D" uid="uid://bsgjf8ackens4" path="res://Art/Oxygen_tank.png" id="22_jaoen"]
 [ext_resource type="Texture2D" uid="uid://b6p7slt8h7wd0" path="res://Art/spaceshipsprites.png" id="23_rijjp"]
+[ext_resource type="PackedScene" uid="uid://1ty7b0yphoc7" path="res://Scenes/SatteliteBad.tscn" id="24_8eoh2"]
+[ext_resource type="PackedScene" uid="uid://do3die3e0mcmm" path="res://Scenes/SatteliteGood.tscn" id="25_4gsrw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tjq3g"]
 
@@ -2031,25 +2033,29 @@ sources/18 = SubResource("TileSetAtlasSource_xw6tu")
 script = ExtResource("1_1pk0j")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_ikfqe")]
+z_index = 1
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_210qt")
 format = 2
+layer_0/tile_data = PackedInt32Array(-2424814, 524290, 8, -2424813, 589826, 8, -2424812, 655362, 8, -2424811, 524290, 8, -2424810, 589826, 8, -2424809, 458754, 8, -2424808, 524290, 8, -2424807, 589826, 8, -2424806, 655362, 8, -2555886, 262146, 6, -2490350, 262146, 7, -2555885, 327682, 6, -2490349, 327682, 7, -2555884, 262146, 6, -2490348, 262146, 7, -2555883, 327682, 6, -2490347, 327682, 7, -2555882, 262146, 6, -2555881, 327682, 6, -2490345, 327682, 7, -2555880, 262146, 6, -2490344, 262146, 7, -2555879, 327682, 6, -2490343, 327682, 7, -2555878, 262146, 6, -2490342, 262146, 7, 3473379, 393218, 14, 3538915, 393218, 15, 3473380, 458754, 14, 3538916, 458754, 15, 3604449, 393218, 14, 3669985, 393218, 15, 3604450, 458754, 14, 3669986, 458754, 15, 3604451, 393218, 14, 3669987, 393218, 15, 3604452, 458754, 14, 3669988, 458754, 15, 3735523, 393218, 14, 3801059, 393218, 15, 3735524, 458754, 14, 3801060, 458754, 15, 3735525, 393218, 14, 3801061, 393218, 15, 3735526, 458754, 14, 3801062, 458754, 15, 3735527, 393218, 14, 3801063, 393218, 15, 3735528, 458754, 14, 3801064, 458754, 15, 3866599, 393218, 14, 3932135, 393218, 15, 3866600, 458754, 14, 3932136, 458754, 15, 3866601, 393218, 14, 3932137, 393218, 15, 3866602, 458754, 14, 3932138, 458754, 15, 3735529, 393218, 14, 3801065, 393218, 15, 3735530, 458754, 14, 3801066, 458754, 15, 3735531, 393218, 14, 3801067, 393218, 15, 3735532, 458754, 14, 3801068, 458754, 15, 1966139, 131074, 2, 2031675, 131074, 3, 1966140, 196610, 2, 2031676, 196610, 3, 1966137, 131074, 2, 2031673, 131074, 3, 1966138, 196610, 2, 2031674, 196610, 3, 1966135, 131074, 2, 2031671, 131074, 3, 1966136, 196610, 2, 2031672, 196610, 3, 1966133, 131074, 2, 2031669, 131074, 3, 1966134, 196610, 2, 2031670, 196610, 3, 1966131, 131074, 2, 2031667, 131074, 3, 1966132, 196610, 2, 2031668, 196610, 3, 2097203, 131074, 2, 2162739, 131074, 3, 2097204, 196610, 2, 2162740, 196610, 3, 2228275, 131074, 2, 2293811, 131074, 3, 2228276, 196610, 2, 2293812, 196610, 3, 2228277, 131074, 2, 2293813, 131074, 3, 2228278, 196610, 2, 2293814, 196610, 3, 2228279, 131074, 2, 2293815, 131074, 3, 2228280, 196610, 2, 2293816, 196610, 3, 2228281, 131074, 2, 2293817, 131074, 3, 2228282, 196610, 2, 2293818, 196610, 3, 2228283, 131074, 2, 2293819, 131074, 3, 2228284, 196610, 2, 2293820, 196610, 3, 2097211, 131074, 2, 2162747, 131074, 3, 2097212, 196610, 2, 2162748, 196610, 3, 2097209, 131074, 2, 2162745, 131074, 3, 2097210, 196610, 2, 2162746, 196610, 3, 2097207, 131074, 2, 2162743, 131074, 3, 2097208, 196610, 2, 2162744, 196610, 3, 2097205, 131074, 2, 2162741, 131074, 3, 2097206, 196610, 2, 2162742, 196610, 3, -2490346, 262146, 7, -2555877, 327682, 6, -2490341, 327682, 7, -2555888, 262146, 6, -2490352, 262146, 7, -2555887, 327682, 6, -2490351, 327682, 7, -2424805, 720898, 8, -2424816, 393218, 8, -2424815, 458754, 8)
 
 [node name="TextureRect" type="TextureRect" parent="."]
 z_index = -1
-offset_left = -820.0
-offset_top = -805.0
-offset_right = 1461.0
-offset_bottom = 1614.0
+offset_left = -816.0
+offset_top = -796.0
+offset_right = 1465.0
+offset_bottom = 1623.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 texture = ExtResource("19_hkj3o")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
+visible = false
 position = Vector2(-153, -114)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+position = Vector2(45, -14)
 build_mode = 1
 polygon = PackedVector2Array(-372, -148, -226, -294, 16, -430, 293, -513, 717, -521, 1024, -395, 1246, -229, 1443, -2, 1533, 235, 1589, 441, 1584, 683, 1503, 935, 1332, 1152, 1125, 1318, 903, 1454, 582, 1537, 329, 1529, 67, 1475, -175, 1364, -387, 1157, -563, 855, -616, 484, -573, 185, -478, -7)
 
@@ -2057,16 +2063,18 @@ polygon = PackedVector2Array(-372, -148, -226, -294, 16, -430, 293, -513, 717, -
 position = Vector2(-1, 0)
 
 [node name="Reactor" parent="." instance=ExtResource("21_1hahw")]
-position = Vector2(901, 499)
+position = Vector2(904, 506)
 
 [node name="Oxygen_tank" type="Sprite2D" parent="."]
-position = Vector2(285, -4.00002)
-scale = Vector2(0.16, 0.16)
+position = Vector2(147, 8)
+scale = Vector2(0.11, 0.118)
 texture = ExtResource("22_jaoen")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Oxygen_tank"]
+position = Vector2(-37.5, -50)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Oxygen_tank/StaticBody2D"]
+position = Vector2(55.6816, 41.5255)
 polygon = PackedVector2Array(-200, -112.5, -137.5, -162.5, 137.5, -168.75, 237.5, -68.7499, 243.75, 75, 212.5, 193.75, -168.75, 193.75, -262.5, 100, -256.25, -74.9998)
 
 [node name="RocketShip" type="Sprite2D" parent="."]
@@ -2081,3 +2089,12 @@ frame = 1
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RocketShip/StaticBody2D"]
 polygon = PackedVector2Array(-2.96678, -10.1628, 0.315614, -19.2525, 2.84053, -17.485, 6.8804, -13.1927, 8.90033, -9.9103, 12.9402, -5.87043, 19, 9.27907, 17.4851, 14.8339, 0.568106, 18.8738, -16.6013, 13.8239, -18.3688, 8.01661, -12.309, -5.11296, -0.694353, -19)
+
+[node name="Rocket" type="CharacterBody2D" parent="RocketShip"]
+position = Vector2(0.568106, 13.5714)
+
+[node name="BadSat" parent="." instance=ExtResource("24_8eoh2")]
+position = Vector2(-331, 854)
+
+[node name="GoodSat" parent="." instance=ExtResource("25_4gsrw")]
+position = Vector2(355, -600)

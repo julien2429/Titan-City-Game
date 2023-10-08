@@ -1,13 +1,30 @@
-[gd_scene load_steps=5 format=3 uid="uid://bhnmx81ghclhc"]
+[gd_scene load_steps=8 format=3 uid="uid://bhnmx81ghclhc"]
 
 [ext_resource type="Texture2D" uid="uid://da7jk18udvsw7" path="res://Art/Titan.png" id="1_empw7"]
 [ext_resource type="Texture2D" uid="uid://bn3o82nlhfu1b" path="res://Art/cooltext444719029754853.png" id="2_qj4wf"]
+[ext_resource type="AudioStream" uid="uid://d2aq1krtkjv71" path="res://Art/piano-moment-9835.mp3" id="3_5o0n6"]
+[ext_resource type="Texture2D" uid="uid://devjmcvvhxpet" path="res://Art/emojisky.com-2225750.png" id="4_aoct7"]
+[ext_resource type="Script" path="res://Scenes/Sprite2D.gd" id="5_0w2m4"]
 
 [sub_resource type="GDScript" id="GDScript_vmya8"]
 resource_name = "Menu"
 script/source = "extends Control
 
-
+func _ready():
+	$AudioStreamPlayer2D.play()
+	if FirstPass.menu == 1:
+		DialogueManager.show_example_dialogue_balloon(load(\"res://dialogue/main_menu.dialogue\"), \"start\")
+		FirstPass.menu = 0
+	
+	if FirstPass.flipped == 1:
+		DialogueManager.show_example_dialogue_balloon(load(\"res://dialogue/landing_flip.dialogue\"), \"start\")
+		FirstPass.flipped = 0
+	
+	if FirstPass.crashed == 1:
+		DialogueManager.show_example_dialogue_balloon(load(\"res://dialogue/landing_crashed.dialogue\"), \"start\")
+		FirstPass.crashed = 0
+	
+	return
 
 func _on_play_pressed():
 	get_tree().change_scene_to_file(\"res://Scenes/Rocketship.tscn\")
@@ -36,6 +53,10 @@ grow_horizontal = 2
 grow_vertical = 2
 script = SubResource("GDScript_vmya8")
 
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(9, 4)
+anchor_mode = 0
+
 [node name="Control" type="Control" parent="."]
 anchors_preset = 0
 offset_right = 40.0
@@ -45,8 +66,10 @@ offset_bottom = 40.0
 clip_contents = true
 layout_direction = 1
 layout_mode = 1
-offset_right = 1218.0
-offset_bottom = 1218.0
+offset_left = -40.0
+offset_top = -96.0
+offset_right = 1231.0
+offset_bottom = 1258.0
 texture = ExtResource("1_empw7")
 
 [node name="MarginContainer" type="MarginContainer" parent="Control"]
@@ -79,6 +102,26 @@ offset_top = 117.0
 offset_right = 1046.0
 offset_bottom = 221.0
 texture = ExtResource("2_qj4wf")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_5o0n6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(78, 68)
+scale = Vector2(0.107287, 0.107287)
+texture = ExtResource("4_aoct7")
+script = ExtResource("5_0w2m4")
+
+[node name="LinkButton" type="LinkButton" parent="Sprite2D"]
+anchors_preset = -1
+anchor_left = 0.084
+anchor_right = 1.0
+anchor_bottom = 1.078
+offset_left = -539.992
+offset_top = -559.0
+offset_right = -466.0
+offset_bottom = -438.61
+uri = "https://science.nasa.gov/saturn/moons/titan/facts/"
 
 [connection signal="pressed" from="Control/MarginContainer/VBoxContainer/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Control/MarginContainer/VBoxContainer/Settings" to="." method="_on_settings_pressed"]

@@ -1,0 +1,177 @@
+[gd_scene load_steps=9 format=3 uid="uid://cokw6pnqwj1cc"]
+
+[ext_resource type="Texture2D" uid="uid://d03bfche0soxs" path="res://Art/titan_reactor_task.png" id="1_8wlm1"]
+[ext_resource type="Script" path="res://Scenes/turnu_de_control.gd" id="1_wc0ee"]
+[ext_resource type="Texture2D" uid="uid://dbsy3dlpppntk" path="res://Art/6-removebg-preview.png" id="3_240f5"]
+[ext_resource type="Script" path="res://Scenes/TextureRect2.gd" id="3_k5fx7"]
+[ext_resource type="Texture2D" uid="uid://dgoygys4r2fuf" path="res://Art/Reactor_Bit_3-removebg-preview.png" id="4_fh8x7"]
+[ext_resource type="Texture2D" uid="uid://b1kg5qox5j4be" path="res://Art/reactor_bit_4-removebg-preview.png" id="5_55sub"]
+[ext_resource type="Texture2D" uid="uid://o0ptb68mffo2" path="res://Art/reactor_bit_5-removebg-preview.png" id="6_3ovjr"]
+[ext_resource type="Texture2D" uid="uid://baogikdlgxmih" path="res://Art/reactor_bit_6-removebg-preview.png" id="7_ar2uo"]
+
+[node name="Turnu de Control" type="Node2D"]
+script = ExtResource("1_wc0ee")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_top = -3.0
+offset_right = 1156.0
+offset_bottom = 651.0
+texture = ExtResource("1_8wlm1")
+
+[node name="6-removebg-preview" type="Sprite2D" parent="TextureRect"]
+position = Vector2(686.25, 299.242)
+scale = Vector2(0.717765, 0.717765)
+texture = ExtResource("3_240f5")
+
+[node name="EmptyPanel" type="TextureRect" parent="."]
+offset_left = 613.25
+offset_top = 189.242
+offset_right = 754.25
+offset_bottom = 327.242
+expand_mode = 1
+script = ExtResource("3_k5fx7")
+
+[node name="Panel" type="Panel" parent="EmptyPanel"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+offset_left = -5.0
+offset_top = -5.0
+offset_right = 145.0
+offset_bottom = 143.0
+mouse_filter = 2
+
+[node name="ImagePanel1" type="TextureRect" parent="."]
+offset_left = 142.0
+offset_top = 92.0
+offset_right = 276.0
+offset_bottom = 226.0
+texture = ExtResource("4_fh8x7")
+expand_mode = 1
+script = ExtResource("3_k5fx7")
+
+[node name="Panel" type="Panel" parent="ImagePanel1"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+offset_left = -1.0
+offset_top = 2.0
+offset_right = 133.0
+offset_bottom = 134.0
+mouse_filter = 2
+
+[node name="ImagePanel2" type="TextureRect" parent="."]
+offset_left = 333.0
+offset_top = 99.0
+offset_right = 467.0
+offset_bottom = 233.0
+texture = ExtResource("5_55sub")
+expand_mode = 1
+script = ExtResource("3_k5fx7")
+
+[node name="Panel" type="Panel" parent="ImagePanel2"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+offset_top = 3.0
+offset_right = 135.0
+offset_bottom = 133.0
+mouse_filter = 2
+
+[node name="ImagePanel3" type="TextureRect" parent="."]
+offset_left = 329.0
+offset_top = 276.0
+offset_right = 463.0
+offset_bottom = 410.0
+texture = ExtResource("6_3ovjr")
+expand_mode = 1
+script = ExtResource("3_k5fx7")
+
+[node name="Panel" type="Panel" parent="ImagePanel3"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+offset_top = 3.0
+offset_right = 134.0
+offset_bottom = 132.0
+mouse_filter = 2
+
+[node name="ImagePanel4" type="TextureRect" parent="."]
+offset_left = 138.0
+offset_top = 274.0
+offset_right = 272.0
+offset_bottom = 408.0
+pivot_offset = Vector2(-951, -353)
+texture = ExtResource("7_ar2uo")
+expand_mode = 1
+script = ExtResource("3_k5fx7")
+
+[node name="Panel" type="Panel" parent="ImagePanel4"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+offset_top = 3.0
+offset_right = 135.0
+offset_bottom = 133.0
+mouse_filter = 2
+
+[node name="EmptyPanel2" type="TextureRect" parent="."]
+offset_left = 610.25
+offset_top = 347.242
+offset_right = 758.25
+offset_bottom = 493.242
+expand_mode = 1
+script = ExtResource("3_k5fx7")
+
+[node name="Panel" type="Panel" parent="EmptyPanel2"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+offset_top = -1.0
+offset_right = 150.0
+offset_bottom = 147.0
+mouse_filter = 2
+
+[node name="EmptyPanel3" type="TextureRect" parent="."]
+offset_left = 776.25
+offset_top = 205.242
+offset_right = 924.25
+offset_bottom = 348.242
+expand_mode = 1
+script = ExtResource("3_k5fx7")
+
+[node name="Panel" type="Panel" parent="EmptyPanel3"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+offset_left = -1.0
+offset_top = -2.0
+offset_right = 149.0
+offset_bottom = 146.0
+mouse_filter = 2
+
+[node name="EmptyPanel4" type="TextureRect" parent="."]
+offset_left = 932.0
+offset_top = 206.0
+offset_right = 1079.0
+offset_bottom = 350.0
+expand_mode = 1
+script = ExtResource("3_k5fx7")
+
+[node name="Panel" type="Panel" parent="EmptyPanel4"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+offset_top = -1.0
+offset_right = 150.0
+offset_bottom = 147.0
+mouse_filter = 2
+
+[node name="Button" type="Button" parent="."]
+offset_left = 958.0
+offset_top = 557.0
+offset_right = 1063.0
+offset_bottom = 601.0
+text = "Exit"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

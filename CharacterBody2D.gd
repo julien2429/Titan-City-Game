@@ -20,20 +20,28 @@ func _physics_process(delta):
 	)
 	update_animation_parameters(input_direction)
 	velocity= movespeed * input_direction
+	sound_animation()
 	move_and_slide()
 	pick_new_state()
 	rotate_compass()
+
+func sound_animation():
+	var ok = true
+	if Input.is_action_just_pressed("down") or Input.is_action_just_pressed("up") or Input.is_action_just_pressed("left") or Input.is_action_just_pressed("right"):
+			$AudioStreamPlayer2D.play()
 
 func update_animation_parameters( move_input : Vector2 ):
 	
 	if(move_input != Vector2.ZERO):
 		animation_tree.set("parameters/idle/blend_position",move_input)
 		animation_tree.set("parameters/walk/blend_position",move_input)
+	else:
+		$AudioStreamPlayer2D.play()
 
 func rotate_compass():
 	var angle : float
-	var x: float = get_parent().x[0]
-	var y: float = get_parent().y[0]
+	var x: float = get_parent().x[VolumeManager.current_task]
+	var y: float = get_parent().y[VolumeManager.current_task]
 	
 	angle = atan2( x - position[0]  , -(y - position[1]) )
 	compass.rotation = angle + 3.14

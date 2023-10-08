@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_10"
+type="Resource"
+uid="uid://b0mhyhkpb2cx1"
+path="res://.godot/imported/landing_succes.dialogue-5ceeb4d9bfbf6f348887a071240dda28.tres"
+
+[deps]
+
+source_file="res://Dialogue/landing_succes.dialogue"
+dest_files=["res://.godot/imported/landing_succes.dialogue-5ceeb4d9bfbf6f348887a071240dda28.tres"]
+
+[params]
+
+defaults=true

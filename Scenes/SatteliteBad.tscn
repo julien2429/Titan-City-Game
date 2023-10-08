@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://1ty7b0yphoc7"]
+
+[ext_resource type="Texture2D" uid="uid://d2pvxiiv372rx" path="res://Art/BadSattelite.png" id="1_sfd47"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -87)
+texture = ExtResource("1_sfd47")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(2, -98)
+build_mode = 1
+polygon = PackedVector2Array(-20, -108, 26, -104, 114, -14, 116, 118, 109, 147, -111, 141, -107, 85, -40, -105)

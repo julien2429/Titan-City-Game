@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_10"
+type="Resource"
+uid="uid://dcsslgrdsgmqh"
+path="res://.godot/imported/Titan_intro.dialogue-19fc5bf85dfb00130feda46e95ef0374.tres"
+
+[deps]
+
+source_file="res://Dialogue/Titan_intro.dialogue"
+dest_files=["res://.godot/imported/Titan_intro.dialogue-19fc5bf85dfb00130feda46e95ef0374.tres"]
+
+[params]
+
+defaults=true

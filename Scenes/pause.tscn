@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://cvpafvtjpy5sg"]
+
+[ext_resource type="Script" path="res://Scenes/pause.gd" id="1_74pye"]
+[ext_resource type="Texture2D" uid="uid://nncyrkxbm0rx" path="res://Art/Background2.png" id="2_c0tj2"]
+[ext_resource type="FontFile" uid="uid://cxnhec5suwi30" path="res://Art/Crang.ttf" id="3_p7c0t"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_74pye")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1160.0
+offset_bottom = 1298.0
+texture = ExtResource("2_c0tj2")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 517.0
+offset_top = 464.0
+offset_right = 679.0
+offset_bottom = 547.0
+text = "Main Menu"
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 521.0
+offset_top = 344.0
+offset_right = 682.0
+offset_bottom = 425.0
+text = "Resume"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 412.0
+offset_top = 174.0
+offset_right = 806.0
+offset_bottom = 228.0
+theme_override_colors/font_color = Color(0.454902, 0.117647, 0.0823529, 1)
+theme_override_fonts/font = ExtResource("3_p7c0t")
+theme_override_font_sizes/font_size = 50
+text = "Game Paused"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]

@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://do3die3e0mcmm"]
+
+[ext_resource type="Texture2D" uid="uid://7xoxvqomabfe" path="res://Art/GoodSattelite.png" id="1_3mf6s"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(33, -89)
+scale = Vector2(0.370293, 0.370293)
+build_mode = 1
+polygon = PackedVector2Array(-62.113, -226.847, 164.734, -210.644, 229.548, 16.2034, 54.0113, 226.847, 51.3107, 307.864, -240.35, 299.763, -218.746, 175.537)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(32, -77)
+scale = Vector2(0.370293, 0.370293)
+texture = ExtResource("1_3mf6s")

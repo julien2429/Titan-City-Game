@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_10"
+type="Resource"
+uid="uid://cfjrgemqdsbqq"
+path="res://.godot/imported/landing_crashed.dialogue-ea5c2c2c27e98beb7a7dc8b63e775959.tres"
+
+[deps]
+
+source_file="res://Dialogue/landing_crashed.dialogue"
+dest_files=["res://.godot/imported/landing_crashed.dialogue-ea5c2c2c27e98beb7a7dc8b63e775959.tres"]
+
+[params]
+
+defaults=true

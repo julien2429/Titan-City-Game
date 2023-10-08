@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_10"
+type="Resource"
+uid="uid://bf47stqwpxogw"
+path="res://.godot/imported/landing_flip.dialogue-3ed5b2cf885568bdca3c90b2f5c473c5.tres"
+
+[deps]
+
+source_file="res://Dialogue/landing_flip.dialogue"
+dest_files=["res://.godot/imported/landing_flip.dialogue-3ed5b2cf885568bdca3c90b2f5c473c5.tres"]
+
+[params]
+
+defaults=true
